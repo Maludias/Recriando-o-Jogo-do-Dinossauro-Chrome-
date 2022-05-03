@@ -1,0 +1,66 @@
+.imgfundo{
+    background-image: url(/fundo.png);
+    background-position: center;
+    width: 676px;
+    height: 380px;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+
+}
+.container{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10%; 
+}
+
+
+.botaoi{
+    background-color: rgb(197, 54, 54);
+    border: none;
+    color: rgb(252, 245, 245);
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top:40%;
+    margin-left: 50%;
+
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.botaoi:hover{
+    background-color:rgba(252, 248, 54, 0.3);
+    border: none;
+    color:white;
+    
+}
+
+.botao1{
+    display: flex; 
+    padding: 10px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+    margin-left: 35%;
+    
+}
+
+.botao2{
+    display: flex; 
+    padding: 10px;
+    margin-top: 0.5%;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+    
+}
+
+body{
+    background: rgb(204, 233, 233);
+}
